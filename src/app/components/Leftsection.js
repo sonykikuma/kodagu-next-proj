@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { BsPersonCircle, BsThreeDots } from "react-icons/bs";
+import Sidebargrid from "./Sidebargrid";
 
 const Leftsection = () => {
   return (
@@ -15,17 +16,20 @@ const Leftsection = () => {
         </div>
       </div>
       <div className=" item-center mx-2  ">
-        <div className="  ">
+        <div className="outline-[1px] outline-blue-300 rounded-full ">
           <Image
             src="/man.webp"
             alt=""
             width={40}
-            height={50}
+            height={40}
             className="hover:scale-110
             transition-transform duration-200 ease-out p-1 rounded-full items-center border-red-500 cursor-pointer"
           />
         </div>
+        <h3 className="items-center">hello alfred bryan</h3>
+        <p className="text-gray-400">xyz@yahoo.com</p>
       </div>
+      <Sidebargrid />
     </div>
   );
 };

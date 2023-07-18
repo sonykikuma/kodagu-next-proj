@@ -9,7 +9,7 @@ import Contentbox from "./Contentbox";
 
 const Content = () => {
   return (
-    <div className="w-[80%] rounded-md mx-auto justify-center box-border h-[840px] items-start p-2 border-2 ">
+    <div className="w-[80%] rounded-md mx-auto mt-4 justify-center box-border h-full items-start p-2 border-2 ">
       <div className="flex gap-8 border-b-2">
         <div className="flex items-center gap-2">
           <LiaTasksSolid /> List Tasks
