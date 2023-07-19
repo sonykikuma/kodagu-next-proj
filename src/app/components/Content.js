@@ -6,6 +6,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { FiMenu } from "react-icons/fi";
 import { HiMenuAlt2 } from "react-icons/hi";
 import Contentbox from "./Contentbox";
+//import Tabcomp from "./Tabcomp";
 
 const Content = () => {
   return (
@@ -50,3 +51,4 @@ const Content = () => {
 };
 
 export default Content;
+//      <Contentbox />
