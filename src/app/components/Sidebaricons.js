@@ -1,9 +1,15 @@
 import React from "react";
-import { AiFillStar, AiFillLike, AiFillCompass } from "react-icons/ai";
+import {
+  AiFillStar,
+  AiFillLike,
+  AiFillCompass,
+  AiOutlinePlus,
+} from "react-icons/ai";
 import { TbTimeline } from "react-icons/tb";
 import { BiWorld } from "react-icons/bi";
 import { RiChatSmile2Fill } from "react-icons/ri";
 import { BsDot } from "react-icons/bs";
+import Image from "next/image";
 
 const Sidebaricons = () => {
   return (
@@ -32,6 +38,35 @@ const Sidebaricons = () => {
         </div>
         <div className="bg-white rounded-full p-2 mb-4 text-slate-400 relative">
           <AiFillLike />{" "}
+        </div>
+      </div>
+      <div className="mt-20  mx-2">
+        <div className="bg-white rounded-full mb-4 py-1">
+          <Image
+            src="/cute.jpg"
+            alt=""
+            width={30}
+            height={40}
+            className="rounded-full "
+          />
+        </div>
+
+        <div className="bg-white rounded-full mb-4 py-1">
+          <Image
+            src="/cute.jpg"
+            width={30}
+            height={40}
+            className="rounded-full "
+          />
+        </div>
+
+        <div className="bg-white rounded-full mb-4 py-1">
+          <Image
+            src="/cute.jpg"
+            width={30}
+            height={40}
+            className="rounded-full"
+          />
         </div>
       </div>
     </>
