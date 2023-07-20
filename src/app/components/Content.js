@@ -6,13 +6,31 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { FiMenu } from "react-icons/fi";
 import { HiMenuAlt2 } from "react-icons/hi";
 import Contentbox from "./Contentbox";
+import Tabcomp from "./Tabcomp";
 //import Tabcomp from "./Tabcomp";
 
 const Content = () => {
   return (
-    <div className="w-[80%] rounded-md mx-auto mt-4 justify-center box-border h-full items-start p-2 border-2 ">
-      <div className="flex gap-8 border-b-2">
-        <div className="flex items-center gap-2">
+    <>
+      <div className="w-[80%] rounded-md mx-auto mt-4 justify-center box-border h-full items-start p-2 border-2 ">
+        <Tabcomp />
+      </div>
+      <div className="flex gap-8 border-b-2"></div>
+    </>
+  );
+};
+
+export default Content;
+
+{
+  /*  
+          <Tabcomp color="blue" />
+
+  
+  
+       <div className="flex gap-8 border-b-2">
+ 
+  <div className="flex items-center gap-2">
           <LiaTasksSolid /> List Tasks
         </div>
         <div className="flex items-center gap-2">
@@ -46,9 +64,5 @@ const Content = () => {
         </div>
       </div>
       <Contentbox />
-    </div>
-  );
-};
-
-export default Content;
-//      <Contentbox />
+*/
+}
