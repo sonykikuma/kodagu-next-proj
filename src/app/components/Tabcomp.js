@@ -47,7 +47,7 @@ const Tabcomp = ({ color }) => {
                 href="#link1"
                 role="tablist"
               >
-                <div className="flex items-center gap-2">
+                <div className="flex font-sans items-center gap-2">
                   <LiaTasksSolid /> List Tasks
                 </div>
               </Link>
@@ -70,7 +70,7 @@ const Tabcomp = ({ color }) => {
                 href="#link2"
                 role="tablist"
               >
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 font-sans">
                   <TbLayoutBoardSplit /> Boards
                 </div>
               </Link>
@@ -93,7 +93,7 @@ const Tabcomp = ({ color }) => {
                 href="#link3"
                 role="tablist"
               >
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 font-sans">
                   <SlCalender /> Calender
                 </div>
               </Link>
@@ -116,7 +116,7 @@ const Tabcomp = ({ color }) => {
                 href="#link4"
                 role="tablist"
               >
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 font-sans">
                   <HiMenuAlt2 /> Gantt
                 </div>
               </Link>
@@ -139,7 +139,7 @@ const Tabcomp = ({ color }) => {
                 href="#link5"
                 role="tablist"
               >
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 font-sans">
                   <FiMenu />
                   Timeline
                 </div>
